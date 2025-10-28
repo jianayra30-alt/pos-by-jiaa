@@ -1,21 +1,62 @@
 body {
-    background-color: #E4A0B7; 
-    font-family: Arial, sans-serif; 
-    color: #191970;
-} 
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E4A0B7; /* Warna pink lembut */
+  font-family: 'Arial', sans-serif;
+  color: #191970;
+}
 
 .kartu-profil {
-    width: 300px;
-    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
-    padding: 20px;
-    background-color: white;
-    border-radius: 15px; /* Membuat sudut melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Efek bayangan lembut */
-    text-align: center; /* Menengahkan semua teks di dalam kartu */
+  width: 300px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 20px;
 }
 
 .kartu-profil img {
-    width: 150px;
-    border-radius: 50%; /* Membuat foto jadi lingkaran */
-    margin-bottom: 15px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #E4A0B7; /* Bingkai foto pink agar nyatu dengan tema */
+}
+
+.kartu-profil h2 {
+  margin-bottom: 10px;
+  color: #191970;
+}
+
+.kartu-profil p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.kartu-profil a {
+  text-decoration: none;
+  color: #E75480; /* Pink yang sedikit lebih terang untuk link */
+  font-weight: bold;
+}
+
+.kartu-profil a:hover {
+  text-decoration: underline;
+}
+
+button#sapaButton {
+  padding: 10px 20px;
+  background-color: #191970;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button#sapaButton:hover {
+  background-color: #2e2fa7;
 }
