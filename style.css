@@ -2,7 +2,7 @@ body {
    /* background-color: #FFFFE0; 
    font-family: Arial, sans-serif; 
    color: #191970;
- } 
+ } */
 
 .kartu-profil {
     width: 300px;
@@ -10,7 +10,7 @@ body {
     padding: 20px;
     background-color: white;
     border-radius: 15px; /* Membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba (0,0,0,0,1); /* Efek bayangan */
+    box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek bayangan */
     text-align: center; /* Menengahkan semua teks di dalam kartu */
 }
 
@@ -20,6 +20,5 @@ body {
     border-radius: 50%; /* Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
 }
 .kartu-profil {
-    /* ... (kode dari slide sebelumnya) ... */
     text-align: center; /* Menengahkan semua teks di dalam kartu */
 }
